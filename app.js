@@ -13,6 +13,10 @@ app.get("/", function(req, res) {
   res.render("home");
 });
 
+app.get("/music", function(req, res) {
+  res.render("music");
+});
+
 
 
 app.listen(3000, function() {
