@@ -3,10 +3,11 @@ body {
 }
 
 /* -----Navbar---------------------------- */
-
-.navbar {
-  margin-bottom: 90px;
+.logo {
+  height: 140px;
+  margin-left: 20px;
 }
+
 
 .nav-item {
   padding-left: 12px;
