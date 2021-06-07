@@ -17,6 +17,14 @@ app.get("/music", function(req, res) {
   res.render("music");
 });
 
+app.get("/store", function(req, res) {
+  res.render("store");
+});
+
+app.get("/contact", function(req, res) {
+  res.render("contact");
+});
+
 
 
 app.listen(3000, function() {

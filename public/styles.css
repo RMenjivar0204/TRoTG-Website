@@ -2,45 +2,59 @@ body {
   background-color: black;
 }
 
+
+
 /* -----Navbar---------------------------- */
 .logo {
   height: 140px;
   margin-left: 20px;
 }
 
+/* Modify the backgorund color */
+.navbar-custom {
+    background-color: black;
+}
 
+/* Modify text color */
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+/* Modify text color */
+.navbar-custom .navbar-toggler {
+    color: white;
+}
+
+.nav-link{
+  margin: 10px 20px;
+}
 
 
 /* -----Carousel-------------------------- */
 
-.cake-container {
-  margin-bottom: 90px;
-}
-
-.carousel-item {
-  height: 30%;
-}
-
-.carousel .carousel-item {
-  height: 475px;
-}
-
-.carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 475px;
-
+.carousel {
+  width:50%;
+  margin: auto;
 }
 
 
 
-/* Footer */
+
+
+/* -----Footer---------------------------- */
 
 footer {
   text-align: center;
+  background-color: black;
+}
+
+footer p {
+  margin-bottom: 0;
+  padding-bottom: 25px;
+  color: white;
 }
 
 .social-icon {
   margin: 30px 10px;
+  color: white;
 }
